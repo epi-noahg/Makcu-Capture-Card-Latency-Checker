@@ -144,7 +144,3 @@ Running 200 tests  (gap: 70ms)
 - **ROI detection:** Only the configured ROI is converted to grayscale and averaged, keeping CPU overhead low.
 
 The measured latency includes: MAKCU USB HID latency + display render time + capture card digitization latency + frame delivery latency to OpenCV. It does **not** include network, input processing, or any software stack above the OS.
-
-## License
-
-MIT
